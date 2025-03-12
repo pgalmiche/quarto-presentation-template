@@ -1,0 +1,6 @@
+## Title for additional slide {auto-animate=true visibility="uncounted" data-visibility="hidden"}
+
+::: {.text-left}
+**Specific images:** with descriptions
+:::
+![*ICANS clinical trial patient information*](./images/medical_context/ICANS_data_overview.png){width=100%}

@@ -1,0 +1,75 @@
+
+## [The ICANS clinical trial](https://clinicaltrials.gov/study/NCT03801850?id=NCT03801850&rank=1)
+
+::: {.text-left}
+**Objective:** Study morphological changes in breast during radiotherapy and their effect on
+administrated dose.
+:::
+
+::: {.columns}
+::: {.column width="70%"}
+- Conducted from 02/22/2018 to 05/07/2020 at the Centre Paul Strauss
+- 60 patients, 33 irradiation sessions
+- Using a hand-held, optical, non-ionizing surface scanner
+- 11 additional surfaces, acquired before, during and after treatment
+- 
+:::
+
+::: {.column width="30%"}
+![*Artec EVA hand-held scanner*](./images/medical_context/artec_eva_scanner_hand.png){width=50%}
+:::
+:::
+
+
+## Data for one patient
+![*ICANS clinical trial patient information*](./images/medical_context/ICANS_data_overview.png){width=100%}
+
+## Example of iframe addition and speaker notes (press s)
+
+
+::: {.columns}
+::: {.column width="50%"}
+
+::: {.text-left}
+Various representations of the patient bust:
+:::
+
+- Point Cloud (left)
+- Voxels (center)
+- Dense mesh (right)
+
+:::
+
+::: {.column width="50%"}
+```{=html}
+<iframe src="./iframes/data-types-pg-thesis.html" width="500" height="300" style="margin-bottom: 0"; ></iframe>
+```
+*ICANS patient data*
+:::
+:::
+
+::: {.fragment}
+&rarr; This data comes with challenges.
+:::
+
+::: {.notes}
+Thanks Robin for your work on the K3D lib!
+:::
+
+::: footer
+1: This is a footer
+:::
+
+## Example of tabset
+
+::: {.panel-tabset}
+
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+:::

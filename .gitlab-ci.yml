@@ -1,0 +1,28 @@
+image: pgalmiche0/defense-presentation-quarto:v1
+
+stages:
+  - build
+  - deploy
+
+# Define the build job
+build:
+  stage: build
+  script:
+    - cd quarto # Change directory to the 'quarto' folder inside the project
+    - quarto render index.qmd --to revealjs
+  artifacts:
+    paths:
+      - quarto/_output # Store the '_output' folder for deployment
+  only:
+    - main
+
+# Define the deploy job for GitLab Pages
+pages:
+  stage: deploy
+  script:
+    - mv quarto/_output public # Move the build output to the 'public' directory for GitLab Pages
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

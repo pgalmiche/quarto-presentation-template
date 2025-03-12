@@ -1,0 +1,41 @@
+
+## Conclusions
+
+::: {.text-left}
+During this presentation:
+:::
+
+- We gave a specific context
+- We explained the main component
+- We saw different references like:
+  + Groupwise correspondences refinement with a ROI focus (@galmicheGroupwiseShapeCorrespondence2023)
+  + Estimation of the dosimetric impact of the measured breast changes (@arbordose2024)
+
+
+
+## Perspectives
+
+::: {.text-left}
+There are many possible continuations from here:
+:::
+
+- Questions
+- Improvements of the main component
+- Future collaborations
+
+
+## Thank you !
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.nonincremental}
+- Every collaborators
+- You can visit [my website](https://pgalmiche.gitlab.io/#/)
+:::
+:::
+
+::: {.column width="50%"}
+![*MLMS team*](./images/MLMS_team.jpg){width=100%}
+:::
+:::
+

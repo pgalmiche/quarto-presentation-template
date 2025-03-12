@@ -1,0 +1,27 @@
+project:
+  output-dir: _output
+
+# Define output formats
+output:
+  revealjs:
+    revealjs: # Use Reveal.js for HTML presentations
+      theme: ["moon", "./css/custom.scss"] # Change theme as needed
+      transition: "slide" # Slide transition style
+      self_contained: true # Bundle resources into a single HTML file
+
+  pdf:
+    beamer: # Use Beamer for PDF presentations
+      keep_tex: true # Keeps the intermediate .tex file
+      documentclass: "beamer" # Specify document class
+      theme: "default" # Beamer theme (change as needed)
+
+  powerpoint: # Use PowerPoint for PPTX presentations
+    reference_doc: "template.pptx" # Use a custom PowerPoint template if desired
+
+# Document metadata
+title: "My Presentation Title"
+author: "Your Name"
+
+# Optional: Specify the output directory (optional)
+output-dir: "docs" # Place generated files in the 'docs' folder
+

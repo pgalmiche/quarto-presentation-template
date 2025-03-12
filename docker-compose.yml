@@ -1,0 +1,17 @@
+services:
+
+  quarto:
+    container_name: quarto-container
+    working_dir: /usr/src/app 
+    image: pgalmiche0/defense-presentation-quarto:v1
+    command: quarto render index.qmd --to revealjs
+    volumes:
+      - code_directory:/usr/src/app/:rw
+
+volumes:
+  code_directory:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./quarto/

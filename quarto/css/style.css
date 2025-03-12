@@ -1,0 +1,268 @@
+.v-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+:root {
+  --r-heading-text-transform: none;
+}
+.center {
+  text-align: center;
+}
+
+.slides {
+  opacity: 0;
+  -webkit-transition: opacity 2s ease;
+  -o-transition: opacity 2s ease;
+  transition: opacity 2s ease;
+}
+
+.reveal.ready .slides {
+  opacity: 1;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.reveal ul ul {
+  margin-top: 1rem;
+}
+
+.small {
+  font-size: 66%;
+}
+
+.smallitalic {
+  font-size: 0.6em;
+  font-style: italic;
+}
+
+.reveal pre {
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: rgba(180, 180, 180, 0.5);
+  background: #272822;
+  color: #ddd;
+  font-size: 0.5em;
+  border-radius: 6px;
+}
+
+.reveal p code,
+.reveal p kbd,
+.reveal ul code {
+  background: rgba(180, 180, 180, 0.2);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+p kbd,
+ul kbd {
+  font-family: monospace;
+}
+
+.reveal .code-wrapper,
+pre,
+pre code {
+  white-space: pre-wrap !important;
+}
+
+section ul li + li {
+  margin-top: 1rem;
+}
+
+a.github-corner {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: clamp(50px, 8vmax, 80px);
+  line-height: 0;
+  color: rgba(255, 255, 255, 0.3);
+}
+a.github-corner.bottom {
+  top: auto;
+  bottom: 3px;
+}
+
+a.github-corner:hover {
+  color: white;
+}
+
+.centerblock {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+}
+
+ol.twocol {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  counter-reset: item;
+  width: 80%;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+}
+ol.twocol li {
+  counter-increment: item;
+  padding-left: 1.7em;
+}
+ol.twocol li:before {
+  content: counter(item) ".";
+  margin-left: -1.7em;
+  margin-right: 0.5em;
+  display: inline-block;
+  width: 1.2em;
+  text-align: right;
+}
+
+/* For title-page */
+
+.quarto-title-block {
+  display: flex;
+  flex-direction: row; /* Stack items vertically */
+  align-items: center; /* Center content horizontally */
+  width: 100%;
+}
+
+.quarto-title-logos {
+  display: flex; /* Use flexbox to arrange logos in a row */
+  justify-content: space-evenly; /* Center the logos in the container */
+  margin: 20px 0; /* Space between logos and title */
+  width: 100%; /* Set width to full to center within the parent */
+}
+
+.quarto-title-logos img {
+  width: 20%;
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 0px; /* Add horizontal space between logos */
+}
+
+.slide-number {
+  font-size: 1em !important; /* Adjust font size */
+  font-weight: bold;
+  color: white !important; /* Ensure the color is white */
+  opacity: 1 !important; /* Fully visible */
+  pointer-events: none; /* Disable any interactions */
+  z-index: 9999; /* Place it above other elements */
+  position: relative;
+  align-items: center;
+}
+
+.slide-number a {
+  color: white !important; /* Match parent text color */
+  text-decoration: none !important; /* Remove underline */
+  pointer-events: none; /* Prevent clicking */
+  cursor: default !important; /* Disable pointer cursor */
+}
+
+.slide-number a:hover {
+  color: white !important;
+  text-decoration: none !important;
+  cursor: default !important;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+/* for title slide  */
+
+.title-layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Two columns, titles 1/4 width, authors 3/4 width */
+  gap: 0em; /* Space between columns */
+  align-items: start; /* Align items to the top */
+  justify-items: start; /* Align the content to the left */
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* Left column: titles */
+.title-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75em; /* Space between titles */
+  text-align: left;
+  font-size: 0.5em; /* Smaller font size for titles */
+  font-weight: bold;
+}
+
+/* Center column: authors */
+.title-center {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em; /* Space between author sections */
+  font-size: 0.8em;
+  width: 100%;
+  margin-left: 0em;
+}
+
+/* Author line: Two authors in each row */
+.author-line {
+  display: flex;
+  justify-content: flex-start; /* Space the authors evenly */
+  gap: 10em; /* Adjust space between names */
+  font-size: 0.5em; /* Smaller font size for author names */
+  text-align: left;
+}
+
+/* Right column: logos, placed below the authors' grid */
+.title-logos {
+  display: flex;
+  justify-content: space-between; /* Space logos evenly */
+  gap: 1em; /* Space between logos */
+  width: 100%;
+  margin-top: 1em; /* Space above the logos */
+}
+
+.title-logos img {
+  max-width: 150px; /* Size of logos */
+  height: auto;
+}
+
+/* Additional date section */
+.date {
+  text-align: center;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #cccccc !important; /* Replace #ffcc00 with your preferred color */
+  text-decoration: none; /* Optional: Remove underline for a cleaner look */
+}
+
+a:hover {
+  color: #00cccc !important; /* Replace #ffaa00 with a slightly different hover color */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+.custom-table {
+  color: black !important;
+  background-color: #ffffff;
+  border: 1px solid #ccc; /* Optional for border */
+}
+
+.custom-table2 {
+  color: black !important;
+  background-color: #ffffff;
+  border: 1px solid #ccc; /* Optional for border */
+  font-size: 12px;
+}

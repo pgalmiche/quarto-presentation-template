@@ -1,0 +1,18 @@
+
+## Context like the following {data-video="small top-right"}
+
+::: {.text-left}
+According to the World Health Organization’s 2022 statistics:
+:::
+
+- 670,000 deaths worldwide in 2022
+- 50 % of breast cancer cases occur in women without specific
+risk factors other than gender and age
+- Most common cancer among women in
+157 out of 185 countries
+
+::: {.fragment}
+&rarr; Research to improve the treatment.
+:::
+
+## Slide Title with color gradient {background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)"}
