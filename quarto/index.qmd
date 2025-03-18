@@ -1,35 +1,32 @@
 ---
-title: "My presentation template"
-subtitle: "and its subtitle"
-
-
+title: "Quarto presentation template"
+subtitle: "for easy and nice slide shows"
 author:
-  - name: Pierre Galmiche
-    affiliation: 
-      - Looking for opportunities
+  - name: "[Pierre Galmiche](http://pgalmiche.gitlab.io)"
 
 date-format: "MM/DD/YYYY"
-date: 01/01/2025
+date: today
 
 bibliography: references.bib
 format:
   revealjs:
-    preview-links: true
-    margin: 0.0
-    min-scale: 0.5
-    max-scale: 1.2
-    template-partials:
-      - title-slide.html
-    title-block-style: plain
-    title-slide-attributes:
-        data-state: "hide-menubar"
-        data-background-image: ./images/MLMS_team.jpg
-        data-background-size: contain
-        data-background-opacity: "0.5"
+    progress: false
+    history: false
+    margin: 0.1
+    width: 1050
+    height: 800
     center: true
     incremental: true
-    theme: [moon, ./css/custom.scss]
-    slide-number: "c/t"
+    menu: true
+    theme: [simple]
+    section-divs: false
+    preview-links: true
+    slide-number: c/t
+    show-slide-number: all
+    title-block-banner: true
+    title-slide-attributes:
+        center-title-slide: false
+        data-state: "hide-menubar"
     navigation-mode: linear
     transition: slide
     transition-speed: slow
@@ -38,14 +35,9 @@ format:
     auto-animate-duration: 0.8
     background-transition: fade
     controls-layout: bottom-right
-    menu: true
-    css: "css/style.css"
-    section-divs: false
-    # logo: images/logos/ICube.png 
     simplemenu:
       barhtml:
           header: "<div class='menubar'><ul class='menu'></ul></div>"
-          footer: "<div class='slide-number'></div>"
       scale: 1
     appearance:
       hideagain: true
@@ -90,4 +82,4 @@ revealjs-plugins:
 # Backup slides {visibility="uncounted"}
 {{< include chapters/backup_slides.qmd >}}
 
-# References {visibility="uncounted"}
+# References {data-state="hide-menubar" visibility="uncounted"}

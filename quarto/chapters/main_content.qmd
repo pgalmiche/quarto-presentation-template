@@ -12,7 +12,6 @@ administrated dose.
 - 60 patients, 33 irradiation sessions
 - Using a hand-held, optical, non-ionizing surface scanner
 - 11 additional surfaces, acquired before, during and after treatment
-- 
 :::
 
 ::: {.column width="30%"}
@@ -21,8 +20,32 @@ administrated dose.
 :::
 
 
-## Data for one patient
+## Data for one patient {auto-animate=true}
+
+This is a test to see if the r-streatch is working well !
+
+![*ICANS clinical trial patient information*](./images/medical_context/ICANS_data_overview.png){.r-stretch}
+
+
+
+## Data for one patient {auto-animate=true}
+
+::: {.text-left}
+**Objective:** Details with auto animate
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+- Detail 1
+- Detail 2
+- Detail 3
+:::
+
+::: {.column width="50%"}
+
 ![*ICANS clinical trial patient information*](./images/medical_context/ICANS_data_overview.png){width=100%}
+:::
+:::
 
 ## Example of iframe addition and speaker notes (press s)
 

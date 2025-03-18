@@ -15,4 +15,31 @@ risk factors other than gender and age
 &rarr; Research to improve the treatment.
 :::
 
-## Slide Title with color gradient {background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)"}
+## Slide Title 
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-tip title="Hi there!"}
+This is a cool callout-tip !
+:::
+
+::: {.callout-note title="Hi there!"}
+This is a cool callout-tip !
+:::
+
+::: {.callout-warning title="Hi there!"}
+This is a cool callout-tip !
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.callout-important title="Hi there!"}
+This is a cool callout-tip !
+:::
+::: {.callout-caution title="Hi there!"}
+This is a cool callout-tip !
+:::
+:::
+:::
