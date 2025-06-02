@@ -67,6 +67,10 @@ quarto render index.qmd --to revealjs
 
 ---
 
-## 🔁 CI/CD with GitLab
+## 🔁 CI/CD with GitLab/GitHub
 
-This project includes a `.gitlab-ci.yml` configuration that automatically builds and deploys your slides to **GitLab Pages** when you push to a GitLab repository.
+This project supports automated deployment for both GitLab and GitHub:
+
+- For GitLab, the included .gitlab-ci.yml file builds and deploys your slides to GitLab Pages when changes are pushed to the repository.
+
+- For GitHub, the .github/workflows/deploy.yml workflow handles the build and publishes the slides to GitHub Pages automatically.
