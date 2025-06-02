@@ -1,6 +1,6 @@
 ---
 title: "Quarto presentation template"
-subtitle: "for easy and nice slide shows"
+subtitle: "for online interactive slide shows"
 author:
   - name: "[Pierre Galmiche](http://pgalmiche.gitlab.io)"
 

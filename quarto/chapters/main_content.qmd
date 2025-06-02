@@ -8,10 +8,9 @@ administrated dose.
 
 ::: {.columns}
 ::: {.column width="70%"}
-- Conducted from 02/22/2018 to 05/07/2020 at the Centre Paul Strauss
-- 60 patients, 33 irradiation sessions
-- Using a hand-held, optical, non-ionizing surface scanner
-- 11 additional surfaces, acquired before, during and after treatment
+- two columns slides are easy to create
+- with images or iframes
+- External links are added simply via markdown and shown in blue: like the title here
 :::
 
 ::: {.column width="30%"}
@@ -20,18 +19,17 @@ administrated dose.
 :::
 
 
-## Data for one patient {auto-animate=true}
+## Auto animate for you slide animations {auto-animate=true}
 
-This is a test to see if the r-streatch is working well !
 
 ![*ICANS clinical trial patient information*](./images/medical_context/ICANS_data_overview.png){.r-stretch}
 
 
 
-## Data for one patient {auto-animate=true}
+## Auto animate for you slide animations {auto-animate=true}
 
 ::: {.text-left}
-**Objective:** Details with auto animate
+**auto-animate=true:** Automatically generate animations between your slides
 :::
 
 ::: {.columns}
@@ -47,14 +45,14 @@ This is a test to see if the r-streatch is working well !
 :::
 :::
 
-## Example of iframe addition and speaker notes (press s)
+## Iframe on the right (interact!) and speaker notes (press s)
 
 
 ::: {.columns}
 ::: {.column width="50%"}
 
 ::: {.text-left}
-Various representations of the patient bust:
+Various representations of the patient bust during my PhD in Computer Science:
 :::
 
 - Point Cloud (left)
@@ -67,13 +65,10 @@ Various representations of the patient bust:
 ```{=html}
 <iframe src="./iframes/data-types-pg-thesis.html" width="500" height="300" style="margin-bottom: 0"; ></iframe>
 ```
-*ICANS patient data*
+*ICANS patient data:1*
 :::
 :::
 
-::: {.fragment}
-&rarr; This data comes with challenges.
-:::
 
 ::: {.notes}
 Thanks Robin for your work on the K3D lib!

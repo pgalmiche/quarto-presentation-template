@@ -5,9 +5,9 @@
 During this presentation:
 :::
 
-- We gave a specific context
-- We explained the main component
-- We saw different references like:
+- We simply presented the revealJS template with quarto
+- We showed interactive iframes, animations and possible layouts
+- You also can show references from a .bib file like:
   + Groupwise correspondences refinement with a ROI focus (@galmicheGroupwiseShapeCorrespondence2023)
   + Estimation of the dosimetric impact of the measured breast changes (@arbordose2024)
 
@@ -19,9 +19,9 @@ During this presentation:
 There are many possible continuations from here:
 :::
 
-- Questions
-- Improvements of the main component
-- Future collaborations
+- You can contact me on [LinkedIn](https://www.linkedin.com/in/pierre-galmiche-70494a136) to discuss
+- You can use this template by pulling the code and test it by following the instructions in the README.md file.
+- You can visit [my website](https://pierregalmiche.link/) to learn more about myself.
 
 
 ## Thank you !
@@ -29,8 +29,8 @@ There are many possible continuations from here:
 ::: {.columns}
 ::: {.column width="50%"}
 ::: {.nonincremental}
-- Every collaborators
-- You can visit [my website](https://pgalmiche.gitlab.io/#/)
+- Every reader
+- The MLMS team from the ICube laboratory
 :::
 :::
 

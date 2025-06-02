@@ -2,20 +2,38 @@
 ## Context like the following {data-video="small top-right"}
 
 ::: {.text-left}
-According to the World Health Organization’s 2022 statistics:
+[Quarto](https://quarto.org/) allows to:
 :::
 
-- 670,000 deaths worldwide in 2022
-- 50 % of breast cancer cases occur in women without specific
-risk factors other than gender and age
-- Most common cancer among women in
-157 out of 185 countries
+- Create slides in various formats like LaTeX, RevealJS, or PowerPoint
+- Produce articles, dashboards, websites
+- Write content in markdown and export nice interactive slideshows
 
 ::: {.fragment}
-&rarr; Research to improve the treatment.
+&rarr; Don't hesitate to look at the [documentation](https://quarto.org/docs/get-started/) to get started.
 :::
 
-## Slide Title 
+
+## Plugins and integrated tools
+
+::: {.text-left}
+You can automatically deploy you slides online using CI/CD and make use of integrated tools like:
+:::
+
+
+- Slides overview: type "o"
+- Speaker notes view with "S"
+- Excalidraw (plugin): A drawing tool -> type "x" to go to the white board
+- Pointers (plugin): type "p" to show a red pointer
+- Simply type "?" to learn more about RevealJS navigation
+
+
+::: {.fragment}
+&rarr; Look at the [documentation](https://quarto.org/docs/presentations/) to learn more!
+:::
+
+## Callouts for nice blocks 
+
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -24,11 +42,11 @@ This is a cool callout-tip !
 :::
 
 ::: {.callout-note title="Hi there!"}
-This is a cool callout-tip !
+This is a cool callout-note !
 :::
 
 ::: {.callout-warning title="Hi there!"}
-This is a cool callout-tip !
+This is a cool callout-warning !
 :::
 
 :::
@@ -36,10 +54,10 @@ This is a cool callout-tip !
 ::: {.column width="50%"}
 
 ::: {.callout-important title="Hi there!"}
-This is a cool callout-tip !
+This is a cool callout-important !
 :::
 ::: {.callout-caution title="Hi there!"}
-This is a cool callout-tip !
+This is a cool callout-caution !
 :::
 :::
 :::
